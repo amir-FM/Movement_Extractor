@@ -20,8 +20,8 @@ The project was built and developed on a machine with *16gb of ram*, it still wa
 ## Installation
 
 ``` sh
-git clone [url] [instalation directory]
-cd ./[instalation directory]
+git clone [url] [installation directory]
+cd ./[installation directory]
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
