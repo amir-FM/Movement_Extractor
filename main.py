@@ -33,7 +33,7 @@ while cap.isOpened():
     ret, frame = cap.read()
 
     if not ret:
-        print("Error receiving frame or finnished")
+        print("Error receiving frame or finished")
         break
     else:
         new_size = cv.resize(frame, dims)
@@ -68,9 +68,10 @@ out = cv.VideoWriter(video_out, fourcc, fps, dims, isColor=False)
 
 
 for i in range(0, frames):
+    # movement extraction
+    frame = np.reshape(M[i, :] - low_rank[i, :], dims[::-1])
     # background extraction
-    #frame = np.reshape(M[i, :] - low_rank[i, :], dims[::-1])
-    frame = np.reshape(low_rank[i, :], dims[::-1])
+    #frame = np.reshape(low_rank[i, :], dims[::-1])
     frame8 = cv.convertScaleAbs(frame)
 
     cv.imshow('gray', frame8)
