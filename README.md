@@ -17,7 +17,7 @@ The input file can be of **any** format, but the output is in **.avi** format.
 
 The project was built and developed on a machine with *16gb of ram*, it still wasn't enough (using *SWAP memory* aswell). Depending on the video's length and resolution the process can be more or less of a resource hog. The **scale** of the input video can be ajusted directly in in the source file, aswell as a **verbose** mode.
 
-## Instalation
+## Installation
 
 ``` sh
 git clone [url] [instalation directory]
