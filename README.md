@@ -1,6 +1,7 @@
-# Movement Extractor
+# Movement_Extractor
 
 A program that uses the **SVD** algorithm to extract the movement out of a video. The resulting file can be either just the movement or just the background. The output video is in B&W so to make the process faster.
+
 <img src="https://github.com/user-attachments/assets/37c67304-1f2c-48a2-b55a-90a85c65c4a9">
 <img src="https://github.com/user-attachments/assets/3774e31d-e668-48c4-8c7d-92df8aed640a">
 
