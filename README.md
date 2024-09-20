@@ -20,7 +20,7 @@ The project was built and developed on a machine with *16gb of ram*, it still wa
 ## Installation
 
 ``` sh
-git clone [url] [installation directory]
+git clone https://github.com/amir-FM/Movement_Extractor [installation directory]
 cd ./[installation directory]
 python3 -m venv .venv
 source .venv/bin/activate
